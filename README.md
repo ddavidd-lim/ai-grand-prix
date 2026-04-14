@@ -85,6 +85,7 @@ Activate environment and install packages
 
 ```sh
 pip install -r requirements.txt
+pip install -e . # Download code as modules
 ```
 
 Run example

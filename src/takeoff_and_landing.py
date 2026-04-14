@@ -6,18 +6,11 @@ import subprocess
 
 from mavsdk import System
 
+from utils.get_wsl2_ip import get_wsl2_ip
+
+
 # Enable INFO level logging by default so that INFO messages are shown
 logging.basicConfig(level=logging.INFO)
-
-
-def get_wsl2_ip():
-    result = subprocess.run(
-        ["wsl", "hostname", "-I"],
-        capture_output=True, text=True
-    )
-    
-    
-    return result.stdout.strip().split()[0]
 
 
 async def run():
@@ -50,8 +43,8 @@ async def run():
 
     print("-- Landing")
     await drone.action.land()
-    
-     # Keep alive until Ctrl+C
+
+    # Keep alive until Ctrl+C
     print("Keeping connection alive, Ctrl+C to exit")
     while True:
         await asyncio.sleep(1)
