@@ -72,3 +72,23 @@ make px4_sitl gz_x500
 ```
 
 > If you get a `ninja: error: unknown target 'gz_x500'`, try `make distclean`
+
+## Python Environment Setup
+
+Initialize virtual environment
+
+```sh
+python -m venv .venv
+```
+
+Activate environment and install packages
+
+```sh
+pip install -r requirements.txt
+```
+
+Run example
+
+```sh
+python .\src\main.py
+```
