@@ -91,5 +91,5 @@ pip install -e . # Download code as modules
 Run example
 
 ```sh
-python .\src\main.py
+python .\scripts\takeoff_and_landing.py
 ```
