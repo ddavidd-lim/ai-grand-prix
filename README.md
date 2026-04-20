@@ -68,10 +68,10 @@ make px4_sitl
 Run Simulation with drone
 
 ```sh
-make px4_sitl gz_x500
+make px4_sitl gz_x500_mono_cam
 ```
 
-> If you get a `ninja: error: unknown target 'gz_x500'`, try `make distclean`
+> If you get a `ninja: error: unknown target 'gz_x500_mono_cam'`, try `make distclean`
 
 ## Python Environment Setup
 
