@@ -1,5 +1,6 @@
 # Comms
 pymavlink
+mavsdk
 
 # Vision
 #cv2
