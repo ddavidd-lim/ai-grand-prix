@@ -1,3 +1,4 @@
+
 # Comms
 pymavlink
 mavsdk
@@ -15,3 +16,9 @@ notebook
 
 # Codebase packages
 -e .
+
+# Vision Training / YOLO
+roboflow
+ultralytics
+
+python-dotenv
