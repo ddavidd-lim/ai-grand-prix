@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.pt
 *.pth
 *.py[codz]
 *$py.class
@@ -10,6 +9,7 @@ __pycache__/
 
 # Training Dataset
 AirSim-Drone-Racing-Lab-Gates-2/
+runs/
 
 # Distribution / packaging
 .Python
