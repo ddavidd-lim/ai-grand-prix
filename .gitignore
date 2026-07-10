@@ -10,6 +10,7 @@ __pycache__/
 # Training Dataset
 datasets/
 runs/
+zips/
 
 # Distribution / packaging
 .Python
