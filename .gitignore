@@ -8,7 +8,7 @@ __pycache__/
 *.so
 
 # Training Dataset
-AirSim-Drone-Racing-Lab-Gates-2/
+datasets/
 runs/
 
 # Distribution / packaging
