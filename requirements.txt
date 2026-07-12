@@ -22,3 +22,4 @@ roboflow
 ultralytics
 
 python-dotenv
+ipykernel
