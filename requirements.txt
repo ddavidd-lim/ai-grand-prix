@@ -1,2 +1,17 @@
+# Comms
+pymavlink
 mavsdk
+
+# Vision
+#cv2
 opencv-python
+numpy
+
+# Debug
+matplotlib
+keyboard
+
+notebook
+
+# Codebase packages
+-e .
